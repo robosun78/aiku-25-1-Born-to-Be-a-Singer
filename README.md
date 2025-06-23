@@ -22,20 +22,20 @@ SNS를 보다 보면, 연예인이나 가상 인물의 립싱크 영상을 쉽�
 
 ## 환경 설정
 
-(Requirements, Anaconda, Docker 등 프로젝트를 사용하는데에 필요한 요구 사항을 나열해주세요)
-
-## 사용 방법
-환경설정
 ```
 conda create -n singer
 conda activate singer
 pip install -r requirements.txt
 ```
 
+## 사용 방법
+
+
 데모 페이지 실행
 ```
 python3 app.py
 ```
+
 ## 예시 결과
 
 (사용 방법을 실행했을 때 나타나는 결과나 시각화 이미지를 보여주세요)
@@ -43,8 +43,8 @@ python3 app.py
 ## 팀원
   | 팀원                            | 역할                                       |
 | ----------------------------- | ---------------------------------------- |
-| [조윤지](https://github.com/strn18) |    data preproccess, inference 코드 정리    |
-| [고건영](https://github.com/robosun78)     |    모델 finetuning, evaluation    |
-| [박찬우](https://github.com/dhyun22)        |    모델 pretraining, gradio 데모   |
-| [신명경](https://github.com/dhyun22)        |    모델 pretraining, gradio 데모   |
+| [조윤지](https://github.com/robosun78) |    데모 제작, 파이프라인   |
+| [고건영](https://github.com/koheon2)     |    모델 수정    |
+| [박찬우](https://github.com/onff02)        |    평가 데이터 수집   |
+| [신명경](https://github.com/w-shin1112)        |    평가 코드 작성   |
 
